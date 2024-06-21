@@ -1,3 +1,10 @@
+import NavBar from "./navbar";
+
 export default function Home() {
-    return <div>Welcome to Next.js!</div>;
+    return (
+        <main>
+            <NavBar />
+            <div>Welcome to Next.js!</div>
+        </main>
+    )
 }
